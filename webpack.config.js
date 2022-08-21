@@ -22,7 +22,7 @@ module.exports = {
   // resolve help to resolve file extension reseach when it is imported in one of the files loaded
   // (ex: import foo from '../src/foo' --> it looks into the extensions in resolve jsx then tsx ...)
    resolve: {
-    extensions: ['jsx', '.tsx', '.ts', '.js'],
+    extensions: ['.jsx', '.tsx', '.ts', '.js'],
   },
   module: {
     rules: [
